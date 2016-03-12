@@ -1,9 +1,12 @@
 //
-// Title:perky_flasher.cpp
+// Title:flasher.cpp
 //
 // Description:
-//   Traffic light simulation
-//   g++ -Wall perky_flasher.cpp -o flasher
+//   Traffic light simulator.
+//   Sequence mode: cycle through red, green, yellow
+//   Fault mode: blink red
+//
+//   g++ -Wall flasher.cpp -o flasher
 //
 // Development Environment:
 //   Angstrom v2012.12
