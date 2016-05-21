@@ -5,17 +5,15 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple TrapSourceDriver.
  */
-public class AppTest 
-    extends TestCase
-{
+public class TrapSourceDriverTest extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public TrapSourceDriverTest(String testName )
     {
         super( testName );
     }
@@ -25,14 +23,16 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( TrapSourceDriverTest.class );
     }
 
     /**
-     * Rigourous Test :-)
+     *
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testApp() {
+//        assertTrue( true );
+
+        TrapSource trapSource = new TrapSource();
+        trapSource.generateTrap();
     }
 }
