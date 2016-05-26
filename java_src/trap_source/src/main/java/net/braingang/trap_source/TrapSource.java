@@ -19,8 +19,10 @@ public class TrapSource {
     public static final int PORT = 162;
     public static final String COMMUNITY = "public";
 
-    public static final String DOTTED = ".1.3.6.1.2.1.1.8";
-    public static final String IP_ADDRESS = "127.0.0.1";
+    //public static final String DOTTED = ".1.3.6.1.2.1.1.8";
+    public static final String DOTTED = ".1.3.6.1.6.3.1.1.5.7";
+    //public static final String IP_ADDRESS = "127.0.0.1";
+    public static final String IP_ADDRESS = "192.168.34.2";
 
     /**
      * generate V1 trap
